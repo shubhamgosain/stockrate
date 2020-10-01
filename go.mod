@@ -1,4 +1,4 @@
-module stai/github.com/indiastocks
+module github.com/shubhamgosain/indiastocks
 
 go 1.14
 
