@@ -1,4 +1,4 @@
-module github.com/shubhamgosain/indiastocks
+module github.com/shubhamgosain/stockrate
 
 go 1.14
 
