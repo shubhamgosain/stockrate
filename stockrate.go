@@ -24,7 +24,7 @@ func GetCompanyList() (list []string) {
 	return
 }
 
-// GetPrice returns current price, previous close, open, variation, percentage and volume for company
+// GetPrice returns current price, previous close, open, variation, percentage and volume for a company
 func GetPrice(company string) (StockPrice, error) {
 	var stockPrice StockPrice
 	url, err := getURL(company)
@@ -76,7 +76,7 @@ func GetTechnicals(company string) (StockTechnicals, error) {
 	return stockTechnicals, nil
 }
 
-// GetMovingAverage returns the 5,10,20,50,100,200 days moving average
+// GetMovingAverage returns the 5, 10, 20, 50, 100, 200 days moving average respectively
 func GetMovingAverage(company string) (StockMovingAverage, error) {
 	stockMovingAverage := make(StockMovingAverage)
 	url, err := getURL(company)
@@ -98,7 +98,7 @@ func GetMovingAverage(company string) (StockMovingAverage, error) {
 	return stockMovingAverage, nil
 }
 
-// GetPivotLevels returns the important pivot levels of company given in order R1, R2, R3, Pivot, S1, S2, S3
+// GetPivotLevels returns the important pivot levels of a stock given in order R1, R2, R3, Pivot, S1, S2, S3
 func GetPivotLevels(company string) (StockPivotLevels, error) {
 	stockPivotLevels := make(StockPivotLevels)
 	url, err := getURL(company)
