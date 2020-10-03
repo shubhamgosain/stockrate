@@ -2,8 +2,9 @@
 
 Stockrate is a golang module for reading price and necessary valuations for symbols listed in indian stock markets NSE and BSE. It can provide the information for all the stocks listed at BSE and NSE.
  
-Module can provides the list of companies, price of a symbol, moving averages, pivot Levels and technical valuations. For more information, visit its documentation https://pkg.go.dev/github.com/shubhamgosain/stockrate  
---
+Module can provides the list of companies, price of a symbol, moving averages, pivot Levels and technical valuations. For more information, visit its documentation https://pkg.go.dev/github.com/shubhamgosain/stockrate
+
+---
 # Functions
 
 Import
